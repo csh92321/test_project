@@ -9,6 +9,7 @@ public class MainClass {
 		
 		Scanner input = new Scanner(System.in);
 		TV_soyoung tv_soyoung = new TV_soyoung();
+		//pull 연습해보기
 		
 		int num;
 		
