@@ -2,7 +2,7 @@ package com.care.tv;
 
 import java.util.Scanner;
 
-public class tv_csh {
+public class Tv_csh {
 	public void display() {
 		System.out.println("냉장고 하는 기능입니다");
 		Scanner in = new Scanner(System.in);
