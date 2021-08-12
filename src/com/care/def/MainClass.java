@@ -2,10 +2,16 @@ package com.care.def;
 
 import java.util.Scanner;
 
+import com.care.tv_soyoung.TV_soyoung;
+
 public class MainClass {
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);
+		TV_soyoung tv_soyoung = new TV_soyoung();
+		
 		int num;
+		
 		System.out.println("---가전제품---");
 		while(true) {
 			System.out.println("1.냉장고");
@@ -19,6 +25,7 @@ public class MainClass {
 				break;	
 			case 2 :
 				System.out.println("Tv");
+				tv_soyoung.display();
 				break;	
 			case 3 :
 				System.out.println("세탁기");
