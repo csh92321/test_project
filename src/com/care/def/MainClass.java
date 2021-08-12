@@ -3,12 +3,17 @@ package com.care.def;
 import java.util.Scanner;
 
 import com.care.tv_hongjunmo.Tv_hongjunmo;
+import com.care.tv_soyoung.TV_soyoung;
 
 public class MainClass {
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);
 		Tv_hongjunmo tv = new Tv_hongjunmo();
+		TV_soyoung tv_soyoung = new TV_soyoung();
+		
 		int num;
+		
 		System.out.println("---∞°¿¸¡¶«∞---");
 		while(true) {
 			System.out.println("1.≥√¿Â∞Ì");
@@ -23,6 +28,7 @@ public class MainClass {
 				break;	
 			case 2 :
 				System.out.println("Tv");
+				tv_soyoung.display();
 				break;	
 			case 3 :
 				System.out.println("ºº≈π±‚");
