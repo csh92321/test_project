@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class MainClass {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		Scanner tv = new Scanner(System.in);
+		TV_JCH tvJCH=new TV_JCH();
 		int num;
 		System.out.println("---가전제품---");
 		while(true) {
